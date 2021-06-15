@@ -1,4 +1,4 @@
-package com.dell.datastructure.linkedlist.singly;
+package com.dell.datastructure.linkedlist.singlylinkedlist;
 
 public class SinglyLinkedListTest {
 

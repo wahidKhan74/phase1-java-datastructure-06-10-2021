@@ -1,16 +1,16 @@
-package com.dell.datastructure.linkedlist.singly;
+package com.dell.datastructure.linkedlist.circularlinkedlist;
 
 public class EmployeeNode {
-	
-	private Employee data ;
+
+	private Employee data;
 	private EmployeeNode next;
 	
-	// create a node
-	EmployeeNode(Employee data) {
+	// create a node 	
+	EmployeeNode(Employee data){
 		this.data = data;
 	}
 
-	// get & sets methods
+	// getter & setter methods
 	public Employee getData() {
 		return data;
 	}
@@ -26,10 +26,11 @@ public class EmployeeNode {
 	public void setNext(EmployeeNode next) {
 		this.next = next;
 	}
-
+	
 	@Override
 	public String toString() {
-		return "EmployeeNode [data=" + data + ", next=" + next + "]";
-	}	
+		return data.toString();
+	}
+	
 	
 }

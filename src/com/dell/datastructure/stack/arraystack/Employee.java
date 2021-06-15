@@ -1,4 +1,4 @@
-package com.dell.datastructure.linkedlist.singly;
+package com.dell.datastructure.stack.arraystack;
 
 public class Employee {
 	
